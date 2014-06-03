@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>sam pothecary</title>
+<link href="styles/style.css" type="text/css" rel="stylesheet">
+<link href="styles/normalize.css" type="text/css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cherry+Swash' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<link rel="icon" type="image/png" href="images/logo/spfav.png">
+    
+    
+    <script>
+        $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+
+    </script>
+
+<div id="anchor"></div>
+
+<div id="navigation">
+    
+    	<a class="float" href="#anchor">Home</a>
+        <a class="float" href="#portfolioBox">Portfolio</a>
+        <a class="float" href="#bioBox">Bio</a>
+        <a class="float" href="#contactBox">Contact</a>
+        <a class="float" href="http://sampothecary.com/blog/">Blog</a>
+        
+    </div>
+	
+
+
+</head>
+
+<body>
+    
+    <div id="logoBox">
+        
+        <img src="images/logo/logo.png" height= 100px width= 600px>
+    
+    </div>
+    
+    
+    <div id="greyBar"> </div>
+    
+     <div id="opener"> <p>Welcome</p></div>
+    <div id="introText">
+        
+        <p>Here you will find a portfolio of my work and details about upcoming projects I am participationg in.
+        
+    I am currently studying Digital Media Design at Bournemouth University
+        
+    learning everything from web design(HTML5 CSS3 PHP JAVASCRIPT JQUERY) 
+to app development (Android and iOS)</p></div>
+
+    
+    <div id="triangleImg">
+        <img class="bot" src="images/about/triangle%203.png" height=600px />
+        <img class="top" src="images/about/triangle%202.png" height=600px />
+        
+    </div>
+    
+    <div id="about">
+        
+    </div>
+    
+    <div id="portfolioBox">
+
+        <div class="portLink">
+
+            <figure>
+                <a href="http://217.199.187.63/sampothecary.com/blog/?p=22"><img class="grow" src="images/portfolio/bristol%20zoo%20logo.png" alt="bristol zoo logo"></a>
+            </figure>
+        </div>
+
+         <div class="portLink">
+
+            <figure> 
+                <a href="http://217.199.187.63/sampothecary.com/blog/?p=67"><img class="grow" src="images/portfolio/fire%20saftey.jpeg" alt="fire saftey logo"></a>
+             </figure>
+        </div>
+
+         <div class="portLink">
+
+            <figure>
+             <a href="http://shaunskeen.com/work/nano/"><img class="grow" src="images/portfolio/NANO-Logo.png" alt="NANO logo"></a>
+             
+             </figure>
+        </div>
+
+         <div class="portLink">
+
+            <figure> 
+             <a href="https://www.youtube.com/watch?v=LmPoqSF8NnM&list=PLDHmCagRapll5Q5pQ3pAK5ieLtx28RqcP"><img class="grow" src="images/portfolio/blender.png" alt="blender art logo">
+                </a>
+             </figure>
+        </div>
+
+         <div class="portLink">
+
+            <figure>
+             <img class="grow" src="images/portfolio/cplg.png" alt="the coffee place logo">
+             </figure>
+        </div>
+
+         <div class="portLink">
+            
+            <figure> </figure>
+        </div>
+    
+    </div>
+
+    <div id="bioBox">
+        
+        <div id="bioPhoto">
+            <img class="bot" src="images/bio/biopicbot.png" height="400px">
+            <img class="top" src="images/bio/biopictop.png" height="400px">
+        </div>
+        
+ <p id="box">Hi my name is Sam Pothecary im 24 years old and an undergraduate at Bournemouth University Studying Digital Media Design. I am currently in my first year of the course. My focus at the moment is on development for web witch includes leaning HTML 5, PHP, CSS 3, JQUERY and JAVASCRIPT.<br/>However my goals lie in App development for both Google's Android and Apple's iOS operating systems. I feel that the mobile platform is the definative future for the conumer market. As Hardware is made smaller and more powerfull it will take over the PC market as it is already doing.<br/>
+The need for designers who are ready to take contol of this situation and make Apps that are content aware and easily marketable to a wide audience is key, this is where i hope to establish my position in the market! </p>
+
+    </div>
+    
+    <div id="contactBox">
+        
+        
+        <div id="conForm">
+            
+    <form method="post" action="contactForm.php">
+        
+    <label>Name</label>
+    <input name="name" placeholder="Type Here">
+            
+    <label>Email</label>
+    <input name="email" type="email" placeholder="Type Here">
+            
+    <label>Message</label>
+    <textarea name="message" placeholder="Type Here"></textarea>
+            
+    <input id="submit" name="submit" type="submit" value="Submit">
+        
+</form>
+
+            </div>
+</div>
+    
+    <div id="footerBox">
+    </div>
+
+</body>
+</html>
+
+

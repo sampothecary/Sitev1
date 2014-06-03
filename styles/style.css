@@ -1,0 +1,407 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Russo+One);
+@import url(http://fonts.googleapis.com/css?family=Cherry+Swash);
+@import url(http://fonts.googleapis.com/css?family=Pathway+Gothic+One);
+
+
+/*
+==============================================
+MENU
+
+1: BODY
+2: HEADER
+3: NAV
+4: LOGO
+5: ABOUT
+6: PORTFOLIO
+7: BIO
+8: CONTACT
+9: FOOTER
+==============================================
+*/
+  
+ /*
+==============================================
+BODY  
+==============================================
+*/
+
+  body{
+    background: url(http://i777.photobucket.com/albums/yy57/sampothecary1990/repeat_zps8733989f.png);
+    background-color:#1B1B1B;
+    top: 60px;
+    position:absolute;
+    width:100%;
+  }
+  
+ /*
+==============================================
+HEADER
+==============================================
+*/
+
+#siteHead{
+	color:#FFF;
+	backface-visibility:hidden;
+}
+
+
+
+/*
+==============================================
+NAVIGATION
+==============================================
+*/
+
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: #616161;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+background-color: rgba(1, 1, 1, 0.8);
+color: rgba(1, 1, 1, 0.8);
+left: 0%;
+z-index: 500;
+}
+
+#navigation a{
+    text-decoration:none;
+    color:#FFF;
+    padding:8px;
+    font-size:15pt;
+    padding-bottom:20px;
+}
+
+#navigation a:hover{
+    color:#8541aa;
+}
+
+/* Float */
+
+.float {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+}
+
+.float:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+ /*
+==============================================
+LOGO
+==============================================
+*/
+
+#logoBox{
+    height:100px;
+    width:100%;
+    
+}
+
+#greyBar{
+    top:60px;
+    height:15px;
+    width:100%;
+    background-color:#3c3c3c;
+    
+    
+}
+
+ /*
+==============================================
+ABOUT
+==============================================
+*/
+
+#introText{
+    max-width:1000px;
+    margin:0 auto;
+    
+
+}
+
+#introText p{
+    color:#fff;
+    font-family:'Pathway Gothic One',helvetica, sans-serif;
+    font-size:35px;
+    line-height:42px;
+    text-align:justify;
+}
+
+#opener{
+     color:#fff;
+    font-family:'Pathway Gothic One',helvetica, sans-serif;
+    font-size:60px;
+    text-align:center;
+
+}
+
+#about{
+    padding:20px;
+    height:550px;
+    
+}
+
+
+#traingleImg{
+    position:fixed;
+    top:60px;
+
+    
+}
+
+#triangleImg img{
+   position:absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    left:0;
+    right:0;
+    margin-right:auto;
+    margin-left:auto;
+    
+
+}
+
+
+#triangleImg img.top:hover {
+  opacity:0;
+} 
+
+ /*
+==============================================
+PORTFOLIO
+==============================================
+*/
+
+#portfolioBox{
+
+    top:60px;
+    width:100%;
+    height:550px;
+    background-color:#373636;
+    opacity:75;
+    box-shadow: 0px -2px 2px rgba(34,34,34,0.6);
+}
+
+.portLink{
+    float: left;
+    margin: 10px;
+    height:160px;
+    width:160px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    
+
+
+}
+
+figure{
+    background:url(http://i777.photobucket.com/albums/yy57/sampothecary1990/portblank_zpsa095c93e.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:block;
+    background-color: #fff;
+    height:150px;
+    width:150px;
+    margin:0px;
+    text-align: left;
+    padding: 9px;
+
+}
+
+figure img{
+    height:150px;
+    width:150px;
+    opacity:0.5;
+    background-color:#202020;
+    background-size:cover;
+   
+}
+
+figure img:hover{
+    opacity:1;
+    
+}
+
+.grow {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+ /*
+==============================================
+BIO
+==============================================
+*/
+
+#bioBox{
+    top:60px;
+    width:100%;
+    height:550px;
+}
+
+#bioPhoto{
+    top:60px;
+}
+
+#bioPhoto img{
+     position:absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    left:0;
+    right:0;
+    margin-right:auto;
+    margin-left:50px;
+    margin-top:50px;
+   
+
+}
+
+#bioPhoto img.top:hover {
+  opacity:0;
+} 
+
+#bioBox p{
+    max-width:1000px;
+    color:#fff;
+    font-family:'Pathway Gothic One',helvetica, sans-serif;
+    font-size:20pt;
+    padding-left:480px;
+    padding-top:45px;
+    line-height:42px;
+    max-height: 480px;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+
+
+/* Rotate */
+
+.rotate {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.rotate:hover {
+  -webkit-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+ /*
+==============================================
+CONTACT
+==============================================
+*/
+
+#contactBox{
+    top:60px;
+    width:100%;
+    height:550px;
+    background-color:#373636;
+ 
+
+}
+
+#conForm{
+    width:700px;
+    margin: 0 auto;
+    padding-top:10px;
+}
+
+
+
+label {
+    font-family:'Pathway Gothic One',helvetica, sans-serif;
+    color:#fff;
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    font-size:25px;
+}
+
+form{
+     
+}
+
+input, textarea{
+    font-family:'Pathway Gothic One',helvetica, sans-serif;
+	width:650px;
+	height:27px;
+	background:#000;
+	border:1px solid #000;
+	padding:10px;
+	margin-top:3px;
+	font-size:20pt; display:block;
+    color:#fff;
+}
+
+
+    textarea{
+        height: 200px;
+        
+    }
+
+input:focus, textarea:focus {
+    border:1px solid #FFF;
+}
+
+#submit {
+    width:127px;
+    height:38px;
+    text-indent:-9999px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+	#submit:hover {
+	    opacity:.9;
+	}
+        
+ /*
+==============================================
+FOOTER
+==============================================
+*/
+
+    #footerBox{
+    top:60px;
+    width:100%;
+    height:150px;
+}
